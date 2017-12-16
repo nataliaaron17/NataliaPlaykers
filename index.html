@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="assets/images/logo.png" class="img-responsive"></a>
+            <a href="#" class="search-toggle visible-xs" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Game Videos <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Sample dropdown item</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-right navbar-search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <i class="fa fa-search"></i>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+<header>
+    <div class="container">
+        <div class="schedule">
+            <div class="schedule-header">
+                <h2>Every Friday with Itai</h2>
+            </div>
+            <div class="schedule-xs-title visible-sm">
+                Game Info
+            </div>
+            <div class="schedule-info">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-12">
+                                <div class="icon-map-marker"></div>
+                            </div>
+                            <div class="col-xs-9 col-sm-12">
+                                <p>Goaltime TLV<br>Hatayaasim 27, Tel Aviv</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-12">
+                                <div class="icon-calendar"></div>
+                            </div>
+                            <div class="col-xs-9 col-sm-12">
+                                <p>Jan 15, 2016<br>18:00 PM to 20:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 hidden-toggle">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-12">
+                                <div class="icon-shirt"></div>
+                            </div>
+                            <div class="col-xs-9 col-sm-12">
+                                <p>Team Size<br>5 X 5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 hidden-toggle">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-12">
+                                <div class="icon-wallet"></div>
+                            </div>
+                            <div class="col-xs-9 col-sm-12">
+                                <p>Price:<br>50 NIS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visible-xs visible-sm text-right see-more">
+                    <a href="#">See More</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="schedule-footer">
+                <a href="#" class="btn btn-warning btn-lg">JOIN NOW</a>
+            </div>
+            <div class="schedule-share">
+                <a href="#" class="schedule-share-top"><i class="fa fa-share-alt"></i></a>
+                <a href="#"><i class="icon-whatsapp"></i></a>
+                <a href="#"><i class="icon-facebook"></i></a>
+                <a href="#"><i class="icon-google"></i></a>
+                <a href="#"><i class="icon-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="page container-fluid">
+    <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+            <div class="page-header">
+                <h1><i class="fa fa-caret-right"></i> My Videos</h1>
+            </div>
+        </div>
+    </div>
+    <div class="filter row">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-lg-offset-1">
+            <select class="form-control">
+                <option>All</option>
+            </select>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-6 col-lg-offset-1">
+                <div class="video">
+                    <div class="video-date visible-xs">Video #1 - Tuesday 12 Sep - 19:35</div>
+                    <div class="video-title visible-xs">Lorem ipsum dolor sit amet</div>
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video1.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title hidden-xs">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info hidden-xs">Rea Miller | 124K view</div>
+                    <div class="video-comments">
+                        <div class="pull-left">
+                            <i class="fa fa-comments"></i> 34 comments
+                        </div>
+                        <div class="pull-right visible-xs">
+                            <div class="video-share">
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="video">
+                    <div class="video-date visible-xs">Video #1 - Tuesday 12 Sep - 19:35</div>
+                    <div class="video-title visible-xs">Lorem ipsum dolor sit amet</div>
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video3.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title hidden-xs">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info hidden-xs">Rea Miller | 124K view</div>
+                    <div class="video-comments">
+                        <div class="pull-left">
+                            <i class="fa fa-comments"></i> 34 comments
+                        </div>
+                        <div class="pull-right visible-xs">
+                            <div class="video-share">
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="video">
+                    <div class="video-date visible-xs">Video #1 - Tuesday 12 Sep - 19:35</div>
+                    <div class="video-title visible-xs">Lorem ipsum dolor sit amet</div>
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video4.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title hidden-xs">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info hidden-xs">Rea Miller | 124K view</div>
+                    <div class="video-comments">
+                        <div class="pull-left">
+                            <i class="fa fa-comments"></i> 34 comments
+                        </div>
+                        <div class="pull-right visible-xs">
+                            <div class="video-share">
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 hidden-xs">
+                <div class="video">
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video5.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info">Rea Miller | 124K view</div>
+                    <div class="video-comments"><i class="fa fa-comments"></i> 34 comments</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 hidden-xs">
+                <div class="video">
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video6.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info">Rea Miller | 124K view</div>
+                    <div class="video-comments"><i class="fa fa-comments"></i> 34 comments</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-lg-offset-1 hidden-xs">
+                <div class="video">
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video7.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info">Rea Miller | 124K view</div>
+                    <div class="video-comments"><i class="fa fa-comments"></i> 34 comments</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 hidden-xs">
+                <div class="video">
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video8.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info">Rea Miller | 124K view</div>
+                    <div class="video-comments"><i class="fa fa-comments"></i> 34 comments</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 hidden-xs">
+                <div class="video">
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video9.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info">Rea Miller | 124K view</div>
+                    <div class="video-comments"><i class="fa fa-comments"></i> 34 comments</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 hidden-xs">
+                <div class="video">
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video10.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info">Rea Miller | 124K view</div>
+                    <div class="video-comments"><i class="fa fa-comments"></i> 34 comments</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 hidden-xs">
+                <div class="video">
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video11.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info">Rea Miller | 124K view</div>
+                    <div class="video-comments"><i class="fa fa-comments"></i> 34 comments</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-lg-offset-1 hidden-xs">
+                <div class="video">
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video12.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info">Rea Miller | 124K view</div>
+                    <div class="video-comments"><i class="fa fa-comments"></i> 34 comments</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 hidden-xs">
+                <div class="video">
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video14.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info">Rea Miller | 124K view</div>
+                    <div class="video-comments"><i class="fa fa-comments"></i> 34 comments</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 hidden-xs">
+                <div class="video">
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video13.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info">Rea Miller | 124K view</div>
+                    <div class="video-comments"><i class="fa fa-comments"></i> 34 comments</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 hidden-xs">
+                <div class="video">
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video16.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info">Rea Miller | 124K view</div>
+                    <div class="video-comments"><i class="fa fa-comments"></i> 34 comments</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 hidden-xs">
+                <div class="video">
+                    <div class="video-preview">
+                        <img src="assets/images/videos/video15.jpg" class="img-responsive">
+                        <div class="video-preview-hover">
+                            <div class="video-share">
+                                <a href="#" class="share-like"><i class="fa fa-thumbs-up"></i></a>
+                                <a href="#" class="share-star"><i class="fa fa-star"></i></a>
+                                <a href="#" class="share-more"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                            <div class="video-play"><i class="fa fa-play"></i></div>
+                            <div class="video-time">01:30</div>
+                        </div>
+                    </div>
+                    <div class="video-title">Lorem ipsum dolor sit amet</div>
+                    <div class="video-info">Rea Miller | 124K view</div>
+                    <div class="video-comments"><i class="fa fa-comments"></i> 34 comments</div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-sm-12 text-center">
+                <a href="#" class="load-more">Load More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-8">
+                Copyright <span class="hidden-xs">/ All Rights Reserved</span> / Playkers 2017
+            </div>
+            <div class="col-xs-4 text-right footer-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('.see-more a').on('click', function (e) {
+            e.preventDefault();
+            $('.schedule-info .hidden-toggle').slideDown();
+            $(this).hide();
+        });
+    });
+</script>
+</body>
+</html>
